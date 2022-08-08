@@ -3,6 +3,7 @@ const SignIn = ({ onSubmit, handleChangeItem, changeAuthMode, handleSubmit, regi
     return( 
 <form className="Auth-form" onSubmit={handleSubmit(onSubmit)}>
           <div className="Auth-form-content">
+          <h2 className="Auth-form-title">Все привет расширение скоро релизнится и здесь появится ссылка</h2>
             <h3 className="Auth-form-title">Sign In</h3>
             <div className="text-center">
               Not registered yet?{" "}
