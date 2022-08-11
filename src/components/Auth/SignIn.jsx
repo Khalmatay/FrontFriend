@@ -3,7 +3,8 @@ const SignIn = ({ onSubmit, handleChangeItem, changeAuthMode, handleSubmit, regi
     return( 
 <form className="Auth-form" onSubmit={handleSubmit(onSubmit)}>
           <div className="Auth-form-content">
-          <h2 className="Auth-form-title">Все привет расширение скоро релизнится и здесь появится ссылка</h2>
+          <h2 className="Auth-form-title">Всем привет скоро расширение появится на свет,перейдите по ссылке на форму чтобы получить доступ первыми</h2>
+          <h2 className="Auth-form-title">https://docs.google.com/forms/d/e/1FAIpQLSeIcrNhlv5R8craQ-TCElEdcA0OSjtdYkDl1afOFwlgAIsd7w/viewform?usp=sf_link</h2>
             <h3 className="Auth-form-title">Sign In</h3>
             <div className="text-center">
               Not registered yet?{" "}
